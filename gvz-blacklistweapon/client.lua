@@ -1,12 +1,10 @@
-Citizen.CreateThread(function()
+CreateThread(function()
+    local sleep = 100
 	while true do
-		local sleep = 1
-        Citizen.Wait(sleep)
-		
-        local playerPed = GetPlayerPed(-1)
+        Wait(sleep)
+        local playerPed = PlayerPedId()
         local nothing, weapon = GetCurrentPedWeapon(playerPed, true)
         local blacklisted, name = isWeaponBlacklisted(weapon)
-
 		if blacklisted then
 			RemoveWeaponFromPed(playerPed, weapon)
             if Config.BlacklistWeaponLog then
@@ -25,7 +23,6 @@ function isWeaponBlacklisted(model)
 			return true, blacklistedWeapon
 		end
 	end
-
 	return false, nil
 end
 
