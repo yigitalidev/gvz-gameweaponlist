@@ -14,7 +14,8 @@ Kick Player Feature: Kick Player feature automatically kicks the player when the
 
 Discord Log Feature: Discord log feature allows the player to log on discord when the blacklist weapon is released. 
 
-![image](https://user-images.githubusercontent.com/74410669/114671400-bc583d80-9d0c-11eb-9419-f4880561a8c0.png)
+![image](https://user-images.githubusercontent.com/74410669/114675333-c845fe80-9d10-11eb-8f97-ddaa4339d7fe.png)
+
 
 
 Resmon value when interacting 
