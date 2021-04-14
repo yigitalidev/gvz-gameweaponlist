@@ -1,6 +1,6 @@
 # gvz-blacklistweapon
 
-Good day, today I will share the blacklist weapon addon I made to you. If you want to add or remove weapons from config.lua
+Good day, today I will share the blacklist weapon addon I made to you. If you want to add or remove weapons from config.lua.
 
 
 
