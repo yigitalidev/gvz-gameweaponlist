@@ -1,12 +1,12 @@
-RegisterServerEvent('blacklist:drop')
-AddEventHandler('blacklist:drop', function()
+RegisterServerEvent('gvz-blacklistweaepon:drop')
+AddEventHandler('gvz-blacklistweaepon:drop', function()
     local src = source
     local xPlayer = ESX.GetPlayerFromId(src)
     xPlayer.kick(Config.KickMessage)
 end)
 
-RegisterServerEvent('blacklist:dclog')
-AddEventHandler('blacklist:dclog', function(text)
+RegisterServerEvent('gvz-blacklistweaepon:dclog')
+AddEventHandler('gvz-blacklistweaepon:dclog', function(text)
     local src = source
     local xPlayer = ESX.GetPlayerFromId(src)
     dclog(xPlayer, text)
